@@ -29,6 +29,10 @@
         for(var i=0;i<allPreloadingDivs.length;i++){
             allPreloadingDivs[i].style.display=hideMargin?"none":"flex";
         }
+        var ads = document.getElementsByTagName("pubguru");
+        for(i =0;i<ads.length;i++){
+            ads[i].style.display=hideMargin?"none":"block";
+        }
     }
     
 })();
